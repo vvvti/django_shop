@@ -18,13 +18,13 @@
       {% endfor %}
       {% if cart.coupon %}
         <li>
-          {% blocktrans with code=cart.coupon.code discount=cart.coupon.discount %} "{{ code }}" ({{ discount }}% rabatu)
-          {% endblocktrans %}
+          {% block with code=cart.coupon.code discount=cart.coupon.discount %} "{{ code }}" ({{ discount }}% rabatu)
+          {% endblock %}
           <span>- {{ cart.get_discount|floatformat:"2" }} zł</span>
         </li>
       {% endif %}
     </ul>
-    <p>{% trans "Wartość całkowita" %}: {{ cart.get_total_price_after_discount|floatformat:"2" }} zł</p>
+    <p>{% "Wartość całkowita" %}: {{ cart.get_total_price_after_discount|floatformat:"2" }} zł</p>
   </div>
 
   <form action="." method="post" class="order-form">
