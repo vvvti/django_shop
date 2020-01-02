@@ -1,9 +1,10 @@
+{% load i18n %}
 {% load static %}
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>{% block title %}Mój sklep{% endblock %}</title>
+  <title>{% block title %}{% trans "Mój sklep" %}{% endblock %}</title>
   <link href="{% static "css/base.css" %}" rel="stylesheet">
 </head>
 <body>
@@ -14,13 +15,12 @@
     <div class="cart">
       {% with total_items=cart|length %}
         {% if cart|length > 0 %}
-          Koszyk:
+          {% trans "Koszyk" %}:
           <a href="{% url "cart:cart_detail" %}">
-            {{ total_items }} produkt{{ total_items|pluralize:"y" }},
-            {{ cart.get_total_price }} zł
+            {% blocktrans with total_items_plural=total_items|pluralize:"y" total_price=cart.get_total_price %} {{ total_items }} produkt{{ total_items_plural }}, {{ total_price }} zł{% endblocktrans %}
           </a>
         {% else %}
-          Koszyk jest pusty.
+          {% trans "Koszyk jest pusty." %}"
         {% endif %}
       {% endwith %}
     </div>

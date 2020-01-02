@@ -19,11 +19,23 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
 "%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-
-#: djangoshop/settings.py:103
-msgid "polski"
+#: shop/templates/shop/base.html:7
+msgid "Mój sklep"
 msgstr ""
 
-#: djangoshop/settings.py:104
-msgid "angielski"
+#: shop/templates/shop/base.html:18
+msgid "Koszyk"
+msgstr ""
+
+#: shop/templates/shop/base.html:20
+#, python-format
+msgid " %(total_items)s produkt%(total_items_plural)s, %(total_price)s zł"
+msgstr ""
+
+#: shop/templates/shop/base.html:23
+msgid "Koszyk jest pusty."
+msgstr ""
+
+#: shop/templates/shop/product/detail.html:19
+msgid "Dodaj do koszyka"
 msgstr ""

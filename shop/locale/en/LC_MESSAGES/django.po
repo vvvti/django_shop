@@ -17,11 +17,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: shop/templates/shop/base.html:7
+msgid "Mój sklep"
+msgstr "My shop"
 
-#: djangoshop/settings.py:103
-msgid "polski"
-msgstr "Polish"
+#: shop/templates/shop/base.html:18
+msgid "Koszyk"
+msgstr "Cart"
 
-#: djangoshop/settings.py:104
-msgid "angielski"
-msgstr "English"
+#: shop/templates/shop/base.html:20
+#, python-format
+msgid " %(total_items)s produkt%(total_items_plural)s, %(total_price)s zł"
+msgstr "product"
+
+#: shop/templates/shop/base.html:23
+msgid "Koszyk jest pusty."
+msgstr "The cart is empty"
+
+#: shop/templates/shop/product/detail.html:19
+msgid "Dodaj do koszyka"
+msgstr "Add to cart"

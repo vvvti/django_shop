@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-01 18:06+0100\n"
+"POT-Creation-Date: 2020-01-02 17:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
 "%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
 #: orders/models.py:10
 msgid "Imie"
 msgstr ""
@@ -41,4 +42,28 @@ msgstr ""
 
 #: orders/models.py:15
 msgid "Miejscowość"
+msgstr ""
+
+#: orders/templates/orders/order/create.html:5
+#: orders/templates/orders/order/create.html:9
+msgid "Kasa"
+msgstr ""
+
+#: orders/templates/orders/order/create.html:12
+msgid "Zamówienie"
+msgstr ""
+
+#: orders/templates/orders/order/create.html:22
+#, python-format
+msgid ""
+" \"%(code)s\" (%(discount)s%% rabatu)\n"
+"          "
+msgstr ""
+
+#: orders/templates/orders/order/create.html:28
+msgid "Wartość całkowita"
+msgstr ""
+
+#: orders/templates/orders/order/create.html:33
+msgid "Złóż zamówienie"
 msgstr ""

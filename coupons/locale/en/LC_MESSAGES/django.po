@@ -17,11 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: djangoshop/settings.py:103
-msgid "polski"
-msgstr "Polish"
-
-#: djangoshop/settings.py:104
-msgid "angielski"
-msgstr "English"
+#: coupons/forms.py:6
+msgid "Coupon"
+msgstr ""
