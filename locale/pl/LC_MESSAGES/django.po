@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-02 17:57+0100\n"
+"POT-Creation-Date: 2020-01-03 20:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,10 +20,42 @@ msgstr ""
 "%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
-#: djangoshop/settings.py:103
+#: djangoshop/settings.py:104
 msgid "polski"
 msgstr ""
 
-#: djangoshop/settings.py:104
+#: djangoshop/settings.py:105
 msgid "angielski"
+msgstr ""
+
+#: djangoshop/urls.py:9
+msgid "admin/"
+msgstr ""
+
+#: djangoshop/urls.py:10
+msgid "cart/"
+msgstr ""
+
+#: djangoshop/urls.py:11
+msgid "orders/"
+msgstr ""
+
+#: djangoshop/urls.py:12
+msgid "payment/"
+msgstr ""
+
+#: djangoshop/urls.py:13
+msgid "coupons/"
+msgstr ""
+
+#: payment/urls.py:8
+msgid "process/"
+msgstr ""
+
+#: payment/urls.py:9
+msgid "done/"
+msgstr ""
+
+#: payment/urls.py:10
+msgid "canceled/"
 msgstr ""

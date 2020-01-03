@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-02 17:57+0100\n"
-"PO-Revision-Date: 2020-01-03 18:17+0124\n"
+"POT-Creation-Date: 2020-01-03 20:54+0100\n"
+"PO-Revision-Date: 2020-01-03 20:56+0124\n"
 "Last-Translator: b'  <patryk.kontewicz@poczta.fm>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,10 +19,42 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.9.3\n"
 
-#: djangoshop/settings.py:103
+#: djangoshop/settings.py:104
 msgid "polski"
 msgstr "Polish"
 
-#: djangoshop/settings.py:104
+#: djangoshop/settings.py:105
 msgid "angielski"
 msgstr "English"
+
+#: djangoshop/urls.py:9
+msgid "admin/"
+msgstr "admin"
+
+#: djangoshop/urls.py:10
+msgid "cart/"
+msgstr "koszyk"
+
+#: djangoshop/urls.py:11
+msgid "orders/"
+msgstr "zamowienia"
+
+#: djangoshop/urls.py:12
+msgid "payment/"
+msgstr "platnosc"
+
+#: djangoshop/urls.py:13
+msgid "coupons/"
+msgstr "kupony"
+
+#: payment/urls.py:8
+msgid "process/"
+msgstr "proces"
+
+#: payment/urls.py:9
+msgid "done/"
+msgstr "wykonane"
+
+#: payment/urls.py:10
+msgid "canceled/"
+msgstr "anulowane"
