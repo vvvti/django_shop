@@ -7,12 +7,12 @@ from django.utils.translation import gettext_lazy as _
 
 
 class Order(models.Model):
-    first_name = models.CharField(_('Imie')max_length=50)
-    last_name = models.CharField(_('Nazwisko')max_length=50)
+    first_name = models.CharField(_('Imie'), max_length=50)
+    last_name = models.CharField(_('Nazwisko'), max_length=50)
     email = models.EmailField(_('E-mail'))
-    address = models.CharField(_('Adres')max_length=250)
-    postal_code = models.CharField(_('Kod pocztowy')max_length=20)
-    city = models.CharField(_('Miejscowość')max_length=100)
+    address = models.CharField(_('Adres'), max_length=250)
+    postal_code = models.CharField(_('Kod pocztowy'), max_length=20)
+    city = models.CharField(_('Miejscowość'), max_length=100)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     paid = models.BooleanField(default=False)
