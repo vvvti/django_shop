@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rosetta',
+    'parler',
 ]
 
 MIDDLEWARE = [
@@ -104,6 +105,17 @@ LANGUAGES = (
     ('pl', _('polski')),
     ('en', _('angielski')),
 )
+
+PARLER_LANGUAGES = {
+    None: (
+        {'code': 'en', },
+        {'code': 'pl'},
+    ),
+    'default': {
+        'fallback': 'pl',
+        'hide_untranslated': False,
+    }
+}
 
 LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale/'),)
 
