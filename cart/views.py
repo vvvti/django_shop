@@ -4,7 +4,7 @@ from shop.models import Product
 from .cart import Cart
 from .forms import CartAddProductForm
 from coupons.forms import CouponApplyForm
-from shop.recommender import Recomender
+from shop.recommender import Recommender
 
 
 @require_POST
